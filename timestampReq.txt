@@ -1,0 +1,5 @@
+TimeStampRequest ::= SEQUENCE {
+	countersignatureType OBJECT IDENTIFIER,
+	attributes Attributes OPTIONAL, 
+	content	ContentInfo
+}
